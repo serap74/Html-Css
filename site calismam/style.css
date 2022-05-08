@@ -1,0 +1,81 @@
+header,
+footer {
+  display: flex;
+  background-color: gray;
+  padding: 30px;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+footer p {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: beige;
+}
+.anasayfa {
+  background-color: bisque;
+}
+.personeller {
+  background-color: cadetblue;
+}
+.oneriler {
+  background-color: aqua;
+}
+.hakkimizda {
+  background-color: coral;
+}
+.anasayfa img,
+.oneriler img {
+  width: 50%;
+  height: 50%;
+}
+.resimler img {
+  width: 200px;
+  height: 200px;
+}
+.resimler {
+  display: flex;
+  flex-direction: column;
+}
+.hakkimizda ul li {
+  margin-bottom: 10px;
+  background-color: bisque;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.icerik {
+  display: flex;
+  justify-content: space-between;
+}
+.icerik form {
+  background-color: burlywood;
+  height: 200px;
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+h1 {
+  color: brown;
+  text-align: center;
+}
+table {
+  background-color: antiquewhite;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table tr th,
+table tr td {
+  padding: 50px;
+}
